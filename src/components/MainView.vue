@@ -17,27 +17,27 @@
 				<ul class="w-full flex justify-around p-2 px-52 text-white">
 					<li
 						@click="navigateToMinerRerport"
-						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-blue-800 hover:bg-blue-800/70 active:bg-blue-800/50 cursor-pointer"
+						class="w-[18%] text-2xl break-keep aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-blue-800 hover:bg-blue-800/70 active:bg-blue-800/50 cursor-pointer"
 					>
 						Miner Report
 					</li>
 					<li
 						@click="navigateToNewWorkspace"
-						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-sky-700 hover:bg-sky-700/70 active:bg-sky-700/50 cursor-pointer"
+						class="w-[18%] text-2xl break-keep aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-sky-700 hover:bg-sky-700/70 active:bg-sky-700/50 cursor-pointer"
 					>
-						New Workspace
+						새로운 워크스페이스
 					</li>
 					<li
 						@click="navigateToMyWorkspace"
-						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-indigo-800 hover:bg-indigo-800/70 active:bg-indigo-800/70 cursor-pointer"
+						class="w-[18%] text-2xl break-keep aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-indigo-800 hover:bg-indigo-800/70 active:bg-indigo-800/70 cursor-pointer"
 					>
-						My Workspace
+						나의 워크스페이스
 					</li>
 					<li
 						@click="navigateToDashBoard"
-						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-purple-800 hover:bg-purple-900/70 active:bg-purple-900/50 cursor-pointer"
+						class="w-[18%] text-2xl break-keep aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-purple-800 hover:bg-purple-900/70 active:bg-purple-900/50 cursor-pointer"
 					>
-						Dash Board
+						대시보드
 					</li>
 				</ul>
 			</div>
