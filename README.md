@@ -1,24 +1,17 @@
-# new-vue-app
+# 공대스타챌린지 - 한국가스공사 데이터 분석 플랫폼 (updated 23.09.06)
 
-## Project setup
+## 프로젝트 시작
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+1. yarn
+2. yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 사용기술
+- Vue.js
+- vue-router
+- tailwind.css
+- vuetify
+- pinia (not that much)
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 배포파일
+- http://kogas.s3-website.ap-northeast-2.amazonaws.com/
