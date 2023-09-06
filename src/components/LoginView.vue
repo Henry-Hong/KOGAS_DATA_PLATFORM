@@ -11,7 +11,7 @@
 			>
 				<h1 class="text-2xl font-bold">로그인</h1>
 				<input class="p-3 border" placeholder="아이디" />
-				<input class="p-3 border" placeholder="비밀번호" />
+				<input type="password" class="p-3 border" placeholder="비밀번호" />
 				<button
 					class="w-full bg-[rgb(58,99,160)] text-white p-3 hover:opacity-90 active:opacity-80"
 					@click="navigateToMain"

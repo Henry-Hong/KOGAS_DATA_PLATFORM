@@ -14,21 +14,25 @@
 
 				<ul class="w-full flex justify-around p-2 text-white">
 					<li
+						@click="navigateToMinerRerport"
 						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-blue-600 hover:bg-blue-600/70 active:bg-blue-600/50 cursor-pointer"
 					>
 						Miner Report
 					</li>
 					<li
+						@click="navigateToNewWorkspace"
 						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-sky-500 hover:bg-sky-500/70 active:bg-sky-500/50 cursor-pointer"
 					>
 						New Workspace
 					</li>
 					<li
+						@click="navigateToMyWorkspace"
 						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-indigo-600 hover:bg-indigo-600/70 active:bg-indigo-600/50 cursor-pointer"
 					>
 						My Workspace
 					</li>
 					<li
+						@click="navigateToDashBoard"
 						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-purple-500 hover:bg-purple-500/70 active:bg-purple-500/50 cursor-pointer"
 					>
 						Dash Board
@@ -57,5 +61,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+	methods: {
+		navigateToMinerRerport() {
+			window.open("http://110.165.17.239", "_blank");
+		},
+		navigateToNewWorkspace() {
+			alert("준비중입니다.");
+		},
+		navigateToMyWorkspace() {
+			alert("준비중입니다.");
+		},
+		navigateToDashBoard() {
+			alert("준비중입니다.");
+		},
+	},
+};
 </script>
