@@ -3,37 +3,39 @@
 		<v-app-bar :order="order" color="grey-lighten-2" flat>
 			<img src="../assets/Kogas_Icon.svg" class="h-10 m-4" />
 		</v-app-bar>
-		<v-main class="flex w-full items-center flex-col">
-			<div class="flex flex-col w-full gap-10 mt-14 justify-center">
-				<div class="flex flex-col items-center">
+		<v-main class="flex w-full h-screen items-center flex-col">
+			<div
+				class="flex flex-col w-full h-full items-center gap-16 justify-center"
+			>
+				<div class="flex flex-col -mt-[5%] items-center">
 					<h1 class="mx-auto text-[3rem] font-bold">
 						한국가스공사 분석 플랫폼
 					</h1>
 					<p class="text-lg mx-auto">원하시는 서비스를 선택해주세요.</p>
 				</div>
 
-				<ul class="w-full flex justify-around p-2 text-white">
+				<ul class="w-full flex justify-around p-2 px-52 text-white">
 					<li
 						@click="navigateToMinerRerport"
-						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-blue-600 hover:bg-blue-600/70 active:bg-blue-600/50 cursor-pointer"
+						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-blue-800 hover:bg-blue-800/70 active:bg-blue-800/50 cursor-pointer"
 					>
 						Miner Report
 					</li>
 					<li
 						@click="navigateToNewWorkspace"
-						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-sky-500 hover:bg-sky-500/70 active:bg-sky-500/50 cursor-pointer"
+						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-sky-700 hover:bg-sky-700/70 active:bg-sky-700/50 cursor-pointer"
 					>
 						New Workspace
 					</li>
 					<li
 						@click="navigateToMyWorkspace"
-						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-indigo-600 hover:bg-indigo-600/70 active:bg-indigo-600/50 cursor-pointer"
+						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-indigo-800 hover:bg-indigo-800/70 active:bg-indigo-800/70 cursor-pointer"
 					>
 						My Workspace
 					</li>
 					<li
 						@click="navigateToDashBoard"
-						class="w-1/6 aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-purple-500 hover:bg-purple-500/70 active:bg-purple-500/50 cursor-pointer"
+						class="w-[18%] text-2xl aspect-square flex justify-center items-center font-bold rounded-full text-center transition-all p-6 bg-purple-800 hover:bg-purple-900/70 active:bg-purple-900/50 cursor-pointer"
 					>
 						Dash Board
 					</li>
